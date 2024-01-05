@@ -15,7 +15,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRIC_TOKEN }}
-          user: Jonah-gr
+          #user: Jonah-gr
           config_timezone: Europe/Berlin
           config_display: large
           plugin_achievements: yes
